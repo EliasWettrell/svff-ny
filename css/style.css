@@ -1,0 +1,59 @@
+
+.img-fluid.d-inline-block.align-top {
+    max-height: 350px;
+    width: auto;
+    height: auto;
+}
+
+.navbar-brand {
+    font-size: clamp(6rem, 12vw, 8rem);
+    line-height: 3;
+    text-align: center;
+    color:#ffd600;
+}
+
+#navbar-top {
+    background-image: url(https://i.pinimg.com/1200x/ba/1d/c8/ba1dc82e0d2a4dcd2e6bfbfa7ce2c3d7.jpg);
+    background-size: contain; /*(cover) för att fylla */
+    background-repeat: repeat;
+    background-position: center left; /* fixa positionen */
+    padding-left: 60px; /* space för bilden */
+}
+
+#navbar-main{
+    background-color: #01326a;
+}
+
+#main-wrapper{
+    background-color:#ffd600;
+}
+
+.flex-row{
+    background-color:#01326a;
+    color:#ffd600;
+}
+
+#edit-subject-0-value, #edit-comment-body-0-format--2, #edit-submit, #edit-preview{
+    background-color:#4876cb;
+}
+
+#block-svff-search-form-wide{
+    background-color:#ffd600;
+    border-color:#ffd600
+}
+
+#edit-actions--2{
+    background-color:#4876cb;
+    border-color:#01326a;
+}
+#edit-submit{
+    background-color:#01326a;
+    border-color:#01326a;
+}
+.navbar-brand:hover{
+    color:#478ae0;
+}
+
+
+
+
